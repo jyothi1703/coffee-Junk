@@ -1,0 +1,25 @@
+#about{
+    background-color: #353531;
+    color: whitesmoke;
+}
+.text-underline{
+    width: 150px;
+    color: orange;
+    margin: auto;
+    border: 2px solid;
+}
+#about .pic{
+    height: 600px;
+    background: url(./img/cof2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom: 600px solid transparent;
+    background-attachment: fixed;
+    border-left: 100px solid #353531;
+}
+#about .box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
